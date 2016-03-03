@@ -24,6 +24,7 @@ Vagrant.configure(2) do |config|
 
     config.vm.provision :shell, path: "scripts/000_InstallChoco.bat"
     config.vm.provision :shell, path: "scripts/002_InstallApps.bat" 
-    config.vm.provision :shell, path: "scripts/003_InstallNode.bat" 
+    config.vm.provision :shell, path: "scripts/003_InstallDevTools.bat"
+
 end
 
