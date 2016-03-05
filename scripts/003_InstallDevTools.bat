@@ -7,6 +7,8 @@ choco install resharper-platform
 choco install vagrant
 choco install smartgit
 choco install fiddler4
+choco install googlechrome
+choco install beyondcompare
 chocolatey feature disable -n=allowGlobalConfirmation
 
 
