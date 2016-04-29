@@ -1,9 +1,8 @@
 # Parkbench
 
-Parkbench is a concise Vagrantfile repo for creating a Windows 2012 r2 .NET Development Virtual Machine using Virtualbox.  
-The dev machine will include Visual Studio and Sql Server. 
+Parkbench is a concise Vagrantfile repo for creating a virtual Windows 2012 r2 .NET Dev Machine using Virtualbox.
 
-Parkbench is used in conjunction with Vagrant, Virtual Box, Packer and the packer-windows project.  
+Parkbench is used in conjunction with [Vagrant](https://www.vagrantup.com/downloads.html), [VirtualBox](https://www.virtualbox.org/wiki/Downloads), [Packer](https://www.packer.io/downloads.html) and the [Packer Windows](https://github.com/joefitzgerald/packer-windows) project.  
 
 
 ## Main Steps
@@ -68,7 +67,3 @@ For a well specced but free to use version of SqlServer we use the SqlServer2008
 * Copy this to the c:/ then mount and run the install
 * Options to set true are: Database Engine Services, Full-Text Search, Management Tools Basic
 
-
-
-  
-      
