@@ -14,6 +14,7 @@ The main steps are:
 * Export the Windows+VS+SqlServer Box
 * ```vagrant up``` the new dev machine and start work!
 
+***
 
 ### Build a new Bare Windows OS Box
 
