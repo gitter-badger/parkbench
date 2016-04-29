@@ -22,11 +22,11 @@ The first task to undertake is installing the prerequisites you will need to bui
 
 #### Install Prerequisites
 
-* Vagrant - Install https://www.vagrantup.com/downloads.html
-* VirtualBox - Install https://www.virtualbox.org/wiki/Downloads
-* Packer - Install https://www.packer.io/downloads.html
-* Parkbench Repo - Download or clone https://github.com/JeremyNevill/parkbench
-* Packer Windows - Download or clone https://github.com/joefitzgerald/packer-windows
+* [Vagrant](https://www.vagrantup.com/downloads.html)
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+* [Packer](https://www.packer.io/downloads.html)
+* [Parkbench Repo](https://github.com/JeremyNevill/parkbench)
+* [Packer Windows](https://github.com/joefitzgerald/packer-windows)
 
 
 #### Configure Packer-Windows
@@ -38,6 +38,7 @@ ToDo
 
 ToDo
 
+*** 
 
 ### Upgrade the Bare Windows OS Box to include Sql Server and Visual Studio
 
