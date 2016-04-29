@@ -10,13 +10,13 @@ Parkbench is used in conjunction with Vagrant, Virtual Box, Packer and the packe
 
 The main steps are:
 
-* 1) Build a new Bare Windows OS Box
-* 2) Upgrade the Bare Windows OS Box to include Sql Server and Visual Studio
-* 3) Export the Windows+VS+SqlServer Box
-* 4) ```vagrant up``` the new dev machine and start work!
+* Build a new Bare Windows OS Box
+* Upgrade the Bare Windows OS Box to include Sql Server and Visual Studio
+* Export the Windows+VS+SqlServer Box
+* ```vagrant up``` the new dev machine and start work!
 
 
-### 1) Build a new Bare Windows OS Box
+### Build a new Bare Windows OS Box
 
 The first task to undertake is installing the prerequisites you will need to build and host your Windows box.  
 
