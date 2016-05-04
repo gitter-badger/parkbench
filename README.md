@@ -60,11 +60,30 @@ With the Bare Windows OS Box available we now jump into the Parkbench folder to 
   
 #### Install Sql Server 2008 R2
 
-For a well specced but free to use version of SqlServer we use the SqlServer2008r2 Express Edition available from Microsoft at 
+For a well specced but free to use version of SqlServer we use the SqlServer2008r2 Express Edition available from Microsoft at xxx
 
 * Download SQLEXPRADV_x64_ENU.exe from 
 * The fastest way to install is to copy the Sql Server 2008 exe into the Parkbench folder which then transfers the file to the vagrant machine
 * This file will end up in c:/vagrant/SQLEXPRADV_x64_ENU.exe on the vagrant box
 * Copy this to the c:/ then mount and run the install
 * Options to set true are: Database Engine Services, Full-Text Search, Management Tools Basic
+
+  
+#### Install Visual Studio  
+
+Download and install Visual Studio from:
+* 2012 Professional - https://www.microsoft.com/en-us/download/details.aspx?id=30682
+* 2012 Ultimate - https://www.microsoft.com/en-us/download/details.aspx?id=30678
+* 2015 All Versions (Community, Professional, Enterprise) - https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx
+
+
+#### Package the Existing Box
+To package the now modified vagrant box file, package it up using the ```vagrant package``` command.
+
+* ```vagrant package win2012_sql2008r2_vs2012.box```
+*  
+
+Now copy the packaged box into a suitable folder ready to vagrant up.
+
+
 
