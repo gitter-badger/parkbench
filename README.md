@@ -1,4 +1,3 @@
-simple demo
 # Parkbench
 
 Parkbench is a concise Vagrantfile repo for creating a virtual Windows 2012 r2 .NET Dev Machine using Virtualbox.
